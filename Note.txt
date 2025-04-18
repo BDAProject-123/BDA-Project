@@ -1,0 +1,20 @@
+Step1:
+Install r and Rstudio using the link given below:
+
+https://posit.co/download/rstudio-desktop/
+
+Step2:
+Open RStudio and run the below commands in the console to install the required packages
+
+install.packages("shiny")
+install.packages("dplyr")
+install.packages("readr")
+install.packages("DT")     
+install.packages("stringr")
+
+Step3:Create a new folder and add u.R , server.R and walmart_dataset.csv to it.
+
+step4:Set the project folder as current working directory. 
+(right corner->files->open the project folder and "Settings" icon will be there click it and then click set as working directory  )
+
+Step5:Click Run App at the top right corner.
